@@ -53,7 +53,7 @@ a.	Memory usage vs time
 b.	Latency distribution 
 c.	Suspension count per policy
 Work Distribution: 
-Person 1: 
+ADITYA: 
 Tab + Memory Model
 •	Implement the Tab class/object with:
 o	Base memory
@@ -62,7 +62,7 @@ o	Working set (recently used pages)
 •	Add functions to simulate browsing activity (e.g., open/close pages, add/remove from working set).
 •	Provide APIs like getMemoryUsage(), updateWorkingSet().
 👉 Deliverable: A working simulator of individual tab memory behavior.
-Person 2: 
+SHRETA: 
 Memory Manager + Suspension Policies
 •	Implement global Memory Manager that monitors all tabs.
 •	Write suspension decision logic:
@@ -71,7 +71,7 @@ o	LRU: track access order, suspend least recently used.
 o	Working Set: suspend tab with smallest/oldest working set.
 •	Handle memory pressure (e.g., when total usage > system limit, trigger suspension).
 👉 Deliverable: A module that can decide which tab to suspend under different policies.
-Person 3: 
+SAVANI: 
 Suspension & Restoration Logic
 •	Implement suspend() for tabs (save state, free memory).
 •	Implement restore():
@@ -94,11 +94,11 @@ o	Latency values (avg, max).
 Workflow Structure: 
 /browser_simulation
 │
-├── tab.py                                     # Member 1 → Tab + Memory Model
-├── memory_manager.py      # Member 2 → Policies + Global Memory Manager
-├── suspend_restore.py         # Member 3 → Suspend + Restore + Latency
-├── simulation.py                      # Member 4 → Main driver + scenarios + metrics
-└── README.md                           # For explanation (everyone adds here)
+├── tab.py                                     # ADITYA → Tab + Memory Model
+├── memory_manager.py                          # SHRETA → Policies + Global Memory Manager
+├── suspend_restore.py                         # SAVANI → Suspend + Restore + Latency
+├── simulation.py                              # SALONI → Main driver + scenarios + metrics
+└── README.md                                  # For explanation (everyone adds here)
 
 # Contributor
 SALONI BHIMELLU
