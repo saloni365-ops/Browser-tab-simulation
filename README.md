@@ -52,6 +52,7 @@ Outputs we need:
 a.	Memory usage vs time 
 b.	Latency distribution 
 c.	Suspension count per policy
+<br>
 Work Distribution: 
 ADITYA: 
 Tab + Memory Model
@@ -62,6 +63,7 @@ o	Working set (recently used pages)
 •	Add functions to simulate browsing activity (e.g., open/close pages, add/remove from working set).
 •	Provide APIs like getMemoryUsage(), updateWorkingSet().
 👉 Deliverable: A working simulator of individual tab memory behavior.
+<br>
 SHRETA: 
 Memory Manager + Suspension Policies
 •	Implement global Memory Manager that monitors all tabs.
