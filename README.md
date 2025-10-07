@@ -55,18 +55,18 @@ c.	Suspension count per policy
 <br>
 Work Distribution:
 <br>
-ADITYA: 
-Tab + Memory Model
-•	Implement the Tab class/object with:
-o	Base memory
-o	Extra memory (grows/shrinks with activity)
-o	Working set (recently used pages)
-•	Add functions to simulate browsing activity (e.g., open/close pages, add/remove from working set).
-•	Provide APIs like getMemoryUsage(), updateWorkingSet().
-👉 Deliverable: A working simulator of individual tab memory behavior.
+ADITYA: <br>
+Tab + Memory Model<br>
+•	Implement the Tab class/object with:<br>
+o	Base memory<br>
+o	Extra memory (grows/shrinks with activity)<br>
+o	Working set (recently used pages)<br>
+•	Add functions to simulate browsing activity (e.g., open/close pages, add/remove from working set).<br>
+•	Provide APIs like getMemoryUsage(), updateWorkingSet().<br>
+👉 Deliverable: A working simulator of individual tab memory behavior.<br>
 <br>
-SHRETA: 
-Memory Manager + Suspension Policies
+SHRETA: <br>
+Memory Manager + Suspension Policies<br>
 •	Implement global Memory Manager that monitors all tabs.
 •	Write suspension decision logic:
 o	Baseline: no suspension.
