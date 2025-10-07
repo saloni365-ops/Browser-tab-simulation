@@ -3,6 +3,7 @@ from tab import Tab
 from memory_manager import MemoryManager
 import suspend_restore
 import random, time, csv
+import sys
 
 def make_tabs(n):
     tabs = []
@@ -45,16 +46,22 @@ def run_simulation(n_tabs=12, ticks=200, system_limit_mb=1000, policy='working_s
         memory_trace.append(manager.total_memory_usage())
 
     # summary
-    print("=== Simulation summary ===")
-    print("Final memory usage (MB):", manager.total_memory_usage())
-    print("Tabs total:", len(tabs))
-    print("Total suspensions:", suspend_events)
-    print("Total restores:", restore_events)
+    summary = (
+        f"=== Simulation summary ===\n"
+        f"Final memory usage (MB): {manager.total_memory_usage()}\n"
+        f"Tabs total: {len(tabs)}\n"
+        f"Total suspensions: {suspend_events}\n"
+        f"Total restores: {restore_events}\n"
+    )
     if latency_values:
-        print("Avg restore latency (s):", sum(latency_values)/len(latency_values))
-        print("Max restore latency (s):", max(latency_values))
+        summary += (
+            f"Avg restore latency (s): {sum(latency_values)/len(latency_values)}\n"
+            f"Max restore latency (s): {max(latency_values)}\n"
+        )
     else:
-        print("No restores recorded")
+        summary += "No restores recorded\n"
+
+    print(summary)
 
     # write trace CSV
     with open("memory_trace.csv", "w", newline="") as f:
@@ -64,4 +71,17 @@ def run_simulation(n_tabs=12, ticks=200, system_limit_mb=1000, policy='working_s
             writer.writerow([i, m])
 
 if __name__ == "__main__":
-    run_simulation()
+    # Support command-line arguments for Streamlit frontend
+    if len(sys.argv) > 1:
+        try:
+            n_tabs = int(sys.argv[1])
+            ticks = int(sys.argv[2])
+            system_limit_mb = int(sys.argv[3])
+            policy = sys.argv[4]
+            run_simulation(n_tabs, ticks, system_limit_mb, policy)
+        except Exception as e:
+            print(f"Error parsing arguments: {e}")
+            print("Running with default parameters...")
+            run_simulation()
+    else:
+        run_simulation()
