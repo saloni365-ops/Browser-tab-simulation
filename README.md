@@ -67,34 +67,34 @@ o	Working set (recently used pages)<br>
 <br>
 SHRETA: <br>
 Memory Manager + Suspension Policies<br>
-•	Implement global Memory Manager that monitors all tabs.
-•	Write suspension decision logic:
-o	Baseline: no suspension.
-o	LRU: track access order, suspend least recently used.
-o	Working Set: suspend tab with smallest/oldest working set.
-•	Handle memory pressure (e.g., when total usage > system limit, trigger suspension).
-👉 Deliverable: A module that can decide which tab to suspend under different policies.
+•	Implement global Memory Manager that monitors all tabs.<br>
+•	Write suspension decision logic:<br>
+o	Baseline: no suspension.<br>
+o	LRU: track access order, suspend least recently used.<br>
+o	Working Set: suspend tab with smallest/oldest working set.<br>
+•	Handle memory pressure (e.g., when total usage > system limit, trigger suspension).<br>
+👉 Deliverable: A module that can decide which tab to suspend under different policies.<br>
 <br>
-SAVANI: 
-Suspension & Restoration Logic
-•	Implement suspend() for tabs (save state, free memory).
-•	Implement restore():
-o	With snapshot: fast restore (low latency).
-o	Without snapshot: full reload (high latency).
-•	Add latency simulation (e.g., sleep or timer to show difference).
-👉 Deliverable: Reliable suspend/restore system with measurable latency.
+SAVANI: <br>
+Suspension & Restoration Logic<br>
+•	Implement suspend() for tabs (save state, free memory).<br>
+•	Implement restore():<br>
+o	With snapshot: fast restore (low latency).<br>
+o	Without snapshot: full reload (high latency).<br>
+•	Add latency simulation (e.g., sleep or timer to show difference).<br>
+👉 Deliverable: Reliable suspend/restore system with measurable latency.<br>
 <br>
 Saloni: 
-Simulation + Metrics + Testing
-•	Build simulation scenarios:
-o	Open 10–20 tabs with different usage patterns (e.g., video tab, static news tab, shopping tab with interactions).
-o	Random user clicks to switch tabs.
-•	Collect metrics:
-o	Total memory footprint.
-o	Number of suspensions/restorations.
-o	Latency values (avg, max).
-•	Test with each policy (Baseline vs LRU vs Working Set).
-👉 Deliverable: Simulation driver + results collection.
+Simulation + Metrics + Testing<br>
+•	Build simulation scenarios:<br>
+o	Open 10–20 tabs with different usage patterns (e.g., video tab, static news tab, shopping tab with interactions).<br>
+o	Random user clicks to switch tabs.<br>
+•	Collect metrics:<br>
+o	Total memory footprint.<br>
+o	Number of suspensions/restorations.<br>
+o	Latency values (avg, max).<br>
+•	Test with each policy (Baseline vs LRU vs Working Set).<br>
+👉 Deliverable: Simulation driver + results collection.<br>
 <br>
 Workflow Structure: 
 /browser_simulation
