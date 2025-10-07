@@ -53,7 +53,8 @@ a.	Memory usage vs time
 b.	Latency distribution 
 c.	Suspension count per policy
 <br>
-Work Distribution: 
+Work Distribution:
+<br>
 ADITYA: 
 Tab + Memory Model
 •	Implement the Tab class/object with:
@@ -73,6 +74,7 @@ o	LRU: track access order, suspend least recently used.
 o	Working Set: suspend tab with smallest/oldest working set.
 •	Handle memory pressure (e.g., when total usage > system limit, trigger suspension).
 👉 Deliverable: A module that can decide which tab to suspend under different policies.
+<br>
 SAVANI: 
 Suspension & Restoration Logic
 •	Implement suspend() for tabs (save state, free memory).
@@ -81,6 +83,7 @@ o	With snapshot: fast restore (low latency).
 o	Without snapshot: full reload (high latency).
 •	Add latency simulation (e.g., sleep or timer to show difference).
 👉 Deliverable: Reliable suspend/restore system with measurable latency.
+<br>
 Saloni: 
 Simulation + Metrics + Testing
 •	Build simulation scenarios:
@@ -92,7 +95,7 @@ o	Number of suspensions/restorations.
 o	Latency values (avg, max).
 •	Test with each policy (Baseline vs LRU vs Working Set).
 👉 Deliverable: Simulation driver + results collection.
-
+<br>
 Workflow Structure: 
 /browser_simulation
 │
