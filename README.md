@@ -1,114 +1,113 @@
 # Browser-tab-simulation
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-%20-orange?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![pandas](https://img.shields.io/badge/pandas-%20-lightblue?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![matplotlib](https://img.shields.io/badge/matplotlib-%20-orange?logo=matplotlib&logoColor=white)](https://matplotlib.org/)
+[![pytest](https://img.shields.io/badge/pytest-%20-blue?logo=pytest&logoColor=white)](https://docs.pytest.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green)](./LICENSE)
+
 OS Project – Working Set Model for Browser Tabs
 
-Operating System
-C2P2 Project
+Operating System · C2P2 Project
+
+## Overview
 
 Working Set Model for Browser Tab Simulation
-Title: Dynamic Memory Management for Multi-Tab Browser Environments with Predictive Tab Restoration
 
-Problem Statement: Modern web browsers manage dozens of tabs with varying memory requirements and access patterns. Efficient memory management using working set principles can optimize tab suspension/restoration while maintaining user experience, but requires sophisticated prediction and caching strategies.
+**Title:** Dynamic Memory Management for Multi-Tab Browser Environments with Predictive Tab Restoration
 
-Phase 1: Implement per-tab working set tracking with memory usage monitoring and basic tab suspension/restoration mechanisms. Create realistic web browsing simulators with different tab usage patterns and measure memory footprint, restoration latency, and user experience impact under memory pressure.
+Modern web browsers manage dozens of tabs with varying memory requirements and access patterns. Efficient memory management using working set principles can optimize tab suspension/restoration while maintaining user experience, but requires sophisticated prediction and caching strategies.
 
-Phase 2: Develop predictive models for tab access probability and implement intelligent prefetching mechanisms anticipating tab switches. Create advanced caching strategies optimizing tab restoration speed and memory utilization while considering user behaviour patterns and system constraints. 
+## Project Phases
 
-Implementation: 
-Browser -> windows -> tabs 
-each window can have dozens of tabs 
-Tabs use memory(RAM) -> comp has limited RAM -> browser suspends tabs u r not using and restores them when u click again 
-If not done – too much RAM used -> system slow down & if wrong tab suspended -> u click it -> delay in opening 
+### Phase 1
+- Implement per-tab working set tracking with memory usage monitoring and basic tab suspension/restoration mechanisms.
+- Create realistic web browsing simulators with different tab usage patterns and measure memory footprint, restoration latency, and user experience impact under memory pressure.
 
-Project – simulate tab suspension & restoration using Working set model (OS memory management concept) 
+### Phase 2
+- Develop predictive models for tab access probability and implement intelligent prefetching mechanisms anticipating tab switches.
+- Create advanced caching strategies optimizing tab restoration speed and memory utilization while considering user behaviour patterns and system constraints.
 
-Working set model : set of memory pages that a process has accessed recently 
+## Implementation (concept)
 
-Phase 1: 
-Py sim requirements: 
-1.	Track memory usage of each tab 
-i.	Each tab has: 
-a.	Base memory (min reqd) 
-b.	Extra memory (changes with user interaction) 
-c.	Working set (pages used recently)
-2.	Decide when to suspend a tab 
-i.	If mem is full
-ii.	Suspension frees mem (closing temporarily) 
-iii.	Policies to try 
-a.	No suspension (bad baseline) 
-b.	LRU( Least Recently Used tabs suspended first) 
-c.	Working Set (tab with smallest/oldest working set suspended first) 
-3.	Restore suspended tab when user clicks it 
-i.	When user reopens tab: 
-a.	Snapshot saved -> fast restore 
-b.	No snapshot -> full reload -> slow
-ii.	Latency measure (time taken to restore) 
+- Browser -> windows -> tabs
+- Each window can have dozens of tabs
+- Tabs use memory (RAM); the computer has limited RAM so the browser suspends tabs you're not using and restores them when you click again.
+- If not done properly, too many active tabs can slow the system; suspending the wrong tabs can cause delays when the user switches back.
 
-Outputs we need: 
-1.	Memory footprint(ram used overtime) 
-2.	Restoration latency(time taken to restore suspended tabs) 
-3.	Number of suspensions/restorations
-4.	Comparison bw policies
-5.	Visual of graphs 
-a.	Memory usage vs time 
-b.	Latency distribution 
-c.	Suspension count per policy
-<br>
-Work Distribution:
-<br>
-ADITYA: <br>
-Tab + Memory Model<br>
-•	Implement the Tab class/object with:<br>
-o	Base memory<br>
-o	Extra memory (grows/shrinks with activity)<br>
-o	Working set (recently used pages)<br>
-•	Add functions to simulate browsing activity (e.g., open/close pages, add/remove from working set).<br>
-•	Provide APIs like getMemoryUsage(), updateWorkingSet().<br>
-👉 Deliverable: A working simulator of individual tab memory behavior.<br>
-<br>
-SHRETA: <br>
-Memory Manager + Suspension Policies<br>
-•	Implement global Memory Manager that monitors all tabs.<br>
-•	Write suspension decision logic:<br>
-o	Baseline: no suspension.<br>
-o	LRU: track access order, suspend least recently used.<br>
-o	Working Set: suspend tab with smallest/oldest working set.<br>
-•	Handle memory pressure (e.g., when total usage > system limit, trigger suspension).<br>
-👉 Deliverable: A module that can decide which tab to suspend under different policies.<br>
-<br>
-SAVANI: <br>
-Suspension & Restoration Logic<br>
-•	Implement suspend() for tabs (save state, free memory).<br>
-•	Implement restore():<br>
-o	With snapshot: fast restore (low latency).<br>
-o	Without snapshot: full reload (high latency).<br>
-•	Add latency simulation (e.g., sleep or timer to show difference).<br>
-👉 Deliverable: Reliable suspend/restore system with measurable latency.<br>
-<br>
-Saloni: 
-Simulation + Metrics + Testing<br>
-•	Build simulation scenarios:<br>
-o	Open 10–20 tabs with different usage patterns (e.g., video tab, static news tab, shopping tab with interactions).<br>
-o	Random user clicks to switch tabs.<br>
-•	Collect metrics:<br>
-o	Total memory footprint.<br>
-o	Number of suspensions/restorations.<br>
-o	Latency values (avg, max).<br>
-•	Test with each policy (Baseline vs LRU vs Working Set).<br>
-👉 Deliverable: Simulation driver + results collection.<br>
-<br>
-Workflow Structure: 
+Project – simulate tab suspension & restoration using the working set model (an OS memory management concept).
+
+Working set model: the set of memory pages a process has accessed recently.
+
+## Phase 1 – Requirements (Python simulator)
+
+1. Track memory usage of each tab
+   - Each tab has:
+     - Base memory (minimum required)
+     - Extra memory (changes with user interaction)
+     - Working set (pages used recently)
+2. Decide when to suspend a tab
+   - If memory is full
+   - Suspension frees memory (temporarily)
+   - Policies to try:
+     - No suspension (baseline)
+     - LRU (Least Recently Used)
+     - Working Set (suspend tab with smallest/oldest working set)
+3. Restore suspended tab when user clicks it
+   - With snapshot: fast restore
+   - Without snapshot: full reload (slower)
+   - Measure latency for restores
+
+## Outputs
+
+1. Memory footprint (RAM used over time)
+2. Restoration latency (time taken to restore suspended tabs)
+3. Number of suspensions/restorations
+4. Comparison between policies
+5. Visuals:
+   - Memory usage vs time
+   - Latency distribution
+   - Suspension count per policy
+
+## Work Distribution
+
+### Aditya
+- Tab & Memory Model
+  - Implement the `Tab` class/object with base memory, extra memory, and a working set
+  - Add functions to simulate browsing activity and provide APIs like `get_memory_usage()` and `update_working_set()`
+
+### Shreta
+- Memory Manager & Suspension Policies
+  - Implement a global Memory Manager that monitors all tabs
+  - Implement suspension decision logic for Baseline, LRU and Working Set
+  - Handle memory pressure and triggers
+
+### Savani
+- Suspension & Restoration Logic
+  - Implement `suspend()` for tabs (save state, free memory)
+  - Implement `restore()` with snapshot/no-snapshot behavior and simulated latency
+
+### Saloni
+- Simulation, Metrics & Testing
+  - Build simulation scenarios (10–20 tabs with varied patterns)
+  - Collect metrics (total memory, suspensions/restorations, latency)
+  - Run tests comparing policies
+
+## Project Structure
+
 /browser_simulation
 │
-├── tab.py                                     # ADITYA → Tab + Memory Model
-├── memory_manager.py                          # SHRETA → Policies + Global Memory Manager
-├── suspend_restore.py                         # SAVANI → Suspend + Restore + Latency
-├── simulation.py                              # SALONI → Main driver + scenarios + metrics
-└── README.md                                  # For explanation (everyone adds here)
+├── `tab.py`             # Tab & Memory Model
+├── `memory_manager.py`  # Policies & Global Memory Manager
+├── `suspend_restore.py` # Suspend & Restore + Latency
+├── `simulation.py`      # Main driver + scenarios + metrics
+└── `README.md`          # Project documentation
 
-# Contributor
-SALONI BHIMELLU
-SHRETA DAS
-ADITYA PATIL
-SAVANI BHIMELLU
+## Contributors
 
+- Saloni Bhimellu
+- Shreta Das
+- Aditya Patil
+- Savani Bhimellu
 
