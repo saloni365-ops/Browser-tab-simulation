@@ -1,30 +1,34 @@
-# suspend_restore.py
-"""
-Helpers to centralize suspend/restore timing and optional sleeping.
-This keeps sleep/time simulation in one place.
-"""
-
 import time
-from tab import Tab
 
-def suspend_tab(tab: Tab, save_snapshot: bool = True, simulate_sleep: bool = False) -> float:
-    """
-    Suspend tab and return simulated snapshot write latency (seconds).
-    If simulate_sleep is True, actually sleep for that duration.
-    """
-    snapshot_size_mb = tab.create_snapshot() if save_snapshot else 0
-    # simple model: snapshot write = snapshot_size / 1000 + fixed overhead
-    latency = 0.02 + (snapshot_size_mb / 1000.0)
-    tab.suspend(save_snapshot=False)  # state change: save_snapshot already handled
-    if simulate_sleep and latency > 0:
-        time.sleep(latency)
-    return latency
+RESTORE_PENALTIES = {
+    "active": 0.0,
+    "compressed": 0.02,
+    "disk": 0.10
+}
 
-def restore_tab(tab: Tab, use_snapshot: bool = True, simulate_sleep: bool = False) -> float:
-    """
-    Restore tab and return latency. Optionally sleep to simulate real time.
-    """
-    latency = tab.restore(use_snapshot=use_snapshot)
-    if simulate_sleep and latency > 0:
-        time.sleep(latency)
-    return latency
+class SuspendRestoreManager:
+    VALID = ("active", "compressed", "disk")
+    def __init__(self):
+        self.tier_map = {}
+
+    def set_tier(self, tab_id, tier):
+        if tier not in self.VALID:
+            raise ValueError("Invalid tier")
+        self.tier_map[tab_id] = tier
+
+    def get_tier(self, tab_id):
+        return self.tier_map.get(tab_id, "disk")
+
+    def simulate_restore_latency(self, tab_id):
+        tier = self.get_tier(tab_id)
+        penalty = RESTORE_PENALTIES.get(tier, RESTORE_PENALTIES["disk"])
+        if penalty > 0:
+            time.sleep(penalty)
+        self.set_tier(tab_id, "active")
+        return penalty
+
+    def suspend_to_compressed(self, tab_id):
+        self.set_tier(tab_id, "compressed")
+
+    def suspend_to_disk(self, tab_id):
+        self.set_tier(tab_id, "disk")

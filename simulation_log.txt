@@ -1,0 +1,3200 @@
+[Step 1] Current: tab_11
+   Model warming up... No predictions yet.
+   Prefetch hit: No | Latency: 100.00 ms
+
+[Step 2] Current: tab_5
+   Model warming up... No predictions yet.
+   Prefetch hit: No | Latency: 100.00 ms
+
+[Step 3] Current: tab_5
+   Model warming up... No predictions yet.
+   Prefetch hit: Yes | Latency: 0.00 ms
+
+[Step 4] Current: tab_1
+   Predicted (Top 3): tab_5
+   Prefetch hit: No | Latency: 100.00 ms
+
+[Step 5] Current: tab_10
+   Model warming up... No predictions yet.
+   Prefetch hit: No | Latency: 100.00 ms
+
+[Step 6] Current: tab_11
+   Model warming up... No predictions yet.
+   Prefetch hit: Yes | Latency: 0.00 ms
+
+[Step 7] Current: tab_8
+   Predicted (Top 3): tab_5
+   Prefetch hit: No | Latency: 100.00 ms
+
+[Step 8] Current: tab_8
+   Model warming up... No predictions yet.
+   Prefetch hit: Yes | Latency: 0.00 ms
+
+[Step 9] Current: tab_10
+   Predicted (Top 3): tab_8
+   Prefetch hit: Yes | Latency: 0.00 ms
+
+[Step 10] Current: tab_5
+   Predicted (Top 3): tab_11
+   Prefetch hit: Yes | Latency: 0.00 ms
+
+[Step 11] Current: tab_0
+   Predicted (Top 3): tab_5, tab_1
+   Prefetch hit: No | Latency: 100.00 ms
+
+[Step 12] Current: tab_3
+   Model warming up... No predictions yet.
+   Prefetch hit: No | Latency: 100.00 ms
+
+[Step 13] Current: tab_6
+   Model warming up... No predictions yet.
+   Prefetch hit: No | Latency: 100.00 ms
+
+[Step 14] Current: tab_2
+   Model warming up... No predictions yet.
+   Prefetch hit: No | Latency: 100.00 ms
+
+[Step 15] Current: tab_7
+   Model warming up... No predictions yet.
+   Prefetch hit: No | Latency: 100.00 ms
+
+[Step 16] Current: tab_5
+   Model warming up... No predictions yet.
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 17] Current: tab_0
+   Predicted (Top 3): tab_5, tab_1, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 18] Current: tab_4
+   Predicted (Top 3): tab_3
+   Prefetch hit: No | Latency: 100.00 ms
+
+[Step 19] Current: tab_0
+   Model warming up... No predictions yet.
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 20] Current: tab_0
+   Predicted (Top 3): tab_3, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 21] Current: tab_9
+   Predicted (Top 3): tab_3, tab_4, tab_0
+   Prefetch hit: No | Latency: 100.00 ms
+
+[Step 22] Current: tab_9
+   Model warming up... No predictions yet.
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 23] Current: tab_11
+   Predicted (Top 3): tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 24] Current: tab_0
+   Predicted (Top 3): tab_5, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 25] Current: tab_6
+   Predicted (Top 3): tab_3, tab_4, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 26] Current: tab_0
+   Predicted (Top 3): tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 27] Current: tab_7
+   Predicted (Top 3): tab_3, tab_4, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 28] Current: tab_3
+   Predicted (Top 3): tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 29] Current: tab_8
+   Predicted (Top 3): tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 30] Current: tab_9
+   Predicted (Top 3): tab_8, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 31] Current: tab_0
+   Predicted (Top 3): tab_9, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 32] Current: tab_11
+   Predicted (Top 3): tab_3, tab_4, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 33] Current: tab_6
+   Predicted (Top 3): tab_5, tab_8, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 34] Current: tab_6
+   Predicted (Top 3): tab_2, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 35] Current: tab_9
+   Predicted (Top 3): tab_2, tab_0, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 36] Current: tab_4
+   Predicted (Top 3): tab_9, tab_11, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 37] Current: tab_0
+   Predicted (Top 3): tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 38] Current: tab_10
+   Predicted (Top 3): tab_3, tab_4, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 39] Current: tab_6
+   Predicted (Top 3): tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 40] Current: tab_11
+   Predicted (Top 3): tab_2, tab_0, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 41] Current: tab_1
+   Predicted (Top 3): tab_5, tab_8, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 42] Current: tab_2
+   Predicted (Top 3): tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 43] Current: tab_11
+   Predicted (Top 3): tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 44] Current: tab_11
+   Predicted (Top 3): tab_5, tab_8, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 45] Current: tab_6
+   Predicted (Top 3): tab_5, tab_8, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 46] Current: tab_6
+   Predicted (Top 3): tab_2, tab_0, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 47] Current: tab_7
+   Predicted (Top 3): tab_6, tab_2, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 48] Current: tab_1
+   Predicted (Top 3): tab_5, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 49] Current: tab_11
+   Predicted (Top 3): tab_10, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 50] Current: tab_11
+   Predicted (Top 3): tab_6, tab_5, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 51] Current: tab_11
+   Predicted (Top 3): tab_6, tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 52] Current: tab_8
+   Predicted (Top 3): tab_11, tab_6, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 53] Current: tab_11
+   Predicted (Top 3): tab_8, tab_10, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 54] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 55] Current: tab_1
+   Predicted (Top 3): tab_9, tab_11, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 56] Current: tab_11
+   Predicted (Top 3): tab_10, tab_2, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 57] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 58] Current: tab_11
+   Predicted (Top 3): tab_8, tab_10, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 59] Current: tab_9
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 60] Current: tab_9
+   Predicted (Top 3): tab_9, tab_11, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 61] Current: tab_11
+   Predicted (Top 3): tab_9, tab_11, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 62] Current: tab_8
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 63] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 64] Current: tab_11
+   Predicted (Top 3): tab_9, tab_11, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 65] Current: tab_0
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 66] Current: tab_0
+   Predicted (Top 3): tab_3, tab_4, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 67] Current: tab_4
+   Predicted (Top 3): tab_0, tab_3, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 68] Current: tab_5
+   Predicted (Top 3): tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 69] Current: tab_2
+   Predicted (Top 3): tab_0, tab_5, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 70] Current: tab_6
+   Predicted (Top 3): tab_7, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 71] Current: tab_5
+   Predicted (Top 3): tab_6, tab_2, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 72] Current: tab_1
+   Predicted (Top 3): tab_0, tab_5, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 73] Current: tab_4
+   Predicted (Top 3): tab_11, tab_10, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 74] Current: tab_11
+   Predicted (Top 3): tab_0, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 75] Current: tab_9
+   Predicted (Top 3): tab_8, tab_11, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 76] Current: tab_10
+   Predicted (Top 3): tab_11, tab_9, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 77] Current: tab_5
+   Predicted (Top 3): tab_11, tab_5, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 78] Current: tab_11
+   Predicted (Top 3): tab_1, tab_0, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 79] Current: tab_9
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 80] Current: tab_8
+   Predicted (Top 3): tab_11, tab_9, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 81] Current: tab_3
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 82] Current: tab_9
+   Predicted (Top 3): tab_6, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 83] Current: tab_2
+   Predicted (Top 3): tab_11, tab_9, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 84] Current: tab_7
+   Predicted (Top 3): tab_7, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 85] Current: tab_0
+   Predicted (Top 3): tab_5, tab_3, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 86] Current: tab_8
+   Predicted (Top 3): tab_4, tab_0, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 87] Current: tab_9
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 88] Current: tab_9
+   Predicted (Top 3): tab_11, tab_9, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 89] Current: tab_10
+   Predicted (Top 3): tab_9, tab_11, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 90] Current: tab_1
+   Predicted (Top 3): tab_5, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 91] Current: tab_11
+   Predicted (Top 3): tab_11, tab_10, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 92] Current: tab_5
+   Predicted (Top 3): tab_8, tab_9, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 93] Current: tab_2
+   Predicted (Top 3): tab_1, tab_0, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 94] Current: tab_2
+   Predicted (Top 3): tab_7, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 95] Current: tab_7
+   Predicted (Top 3): tab_7, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 96] Current: tab_4
+   Predicted (Top 3): tab_5, tab_3, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 97] Current: tab_6
+   Predicted (Top 3): tab_0, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 98] Current: tab_11
+   Predicted (Top 3): tab_6, tab_2, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 99] Current: tab_8
+   Predicted (Top 3): tab_8, tab_9, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 100] Current: tab_9
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 101] Current: tab_8
+   Predicted (Top 3): tab_9, tab_11, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 102] Current: tab_10
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 103] Current: tab_10
+   Predicted (Top 3): tab_5, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 104] Current: tab_9
+   Predicted (Top 3): tab_5, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 105] Current: tab_1
+   Predicted (Top 3): tab_9, tab_11, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 106] Current: tab_9
+   Predicted (Top 3): tab_11, tab_10, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 107] Current: tab_8
+   Predicted (Top 3): tab_9, tab_11, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 108] Current: tab_7
+   Predicted (Top 3): tab_9, tab_10, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 109] Current: tab_8
+   Predicted (Top 3): tab_5, tab_3, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 110] Current: tab_8
+   Predicted (Top 3): tab_9, tab_10, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 111] Current: tab_11
+   Predicted (Top 3): tab_9, tab_8, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 112] Current: tab_7
+   Predicted (Top 3): tab_8, tab_9, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 113] Current: tab_1
+   Predicted (Top 3): tab_5, tab_3, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 114] Current: tab_10
+   Predicted (Top 3): tab_11, tab_10, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 115] Current: tab_10
+   Predicted (Top 3): tab_5, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 116] Current: tab_7
+   Predicted (Top 3): tab_5, tab_10, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 117] Current: tab_3
+   Predicted (Top 3): tab_1, tab_5, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 118] Current: tab_3
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 119] Current: tab_3
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 120] Current: tab_7
+   Predicted (Top 3): tab_3, tab_6, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 121] Current: tab_5
+   Predicted (Top 3): tab_3, tab_1, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 122] Current: tab_11
+   Predicted (Top 3): tab_1, tab_0, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 123] Current: tab_2
+   Predicted (Top 3): tab_8, tab_9, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 124] Current: tab_4
+   Predicted (Top 3): tab_7, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 125] Current: tab_3
+   Predicted (Top 3): tab_0, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 126] Current: tab_7
+   Predicted (Top 3): tab_3, tab_6, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 127] Current: tab_1
+   Predicted (Top 3): tab_5, tab_3, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 128] Current: tab_11
+   Predicted (Top 3): tab_11, tab_10, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 129] Current: tab_8
+   Predicted (Top 3): tab_8, tab_9, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 130] Current: tab_9
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 131] Current: tab_9
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 132] Current: tab_7
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 133] Current: tab_5
+   Predicted (Top 3): tab_1, tab_5, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 134] Current: tab_5
+   Predicted (Top 3): tab_1, tab_0, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 135] Current: tab_3
+   Predicted (Top 3): tab_5, tab_1, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 136] Current: tab_4
+   Predicted (Top 3): tab_3, tab_7, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 137] Current: tab_9
+   Predicted (Top 3): tab_0, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 138] Current: tab_6
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 139] Current: tab_5
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 140] Current: tab_8
+   Predicted (Top 3): tab_5, tab_1, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 141] Current: tab_5
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 142] Current: tab_3
+   Predicted (Top 3): tab_5, tab_1, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 143] Current: tab_1
+   Predicted (Top 3): tab_3, tab_7, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 144] Current: tab_0
+   Predicted (Top 3): tab_11, tab_10, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 145] Current: tab_6
+   Predicted (Top 3): tab_4, tab_0, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 146] Current: tab_11
+   Predicted (Top 3): tab_6, tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 147] Current: tab_8
+   Predicted (Top 3): tab_8, tab_9, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 148] Current: tab_5
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 149] Current: tab_3
+   Predicted (Top 3): tab_5, tab_1, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 150] Current: tab_9
+   Predicted (Top 3): tab_3, tab_7, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 151] Current: tab_11
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 152] Current: tab_6
+   Predicted (Top 3): tab_8, tab_9, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 153] Current: tab_6
+   Predicted (Top 3): tab_11, tab_6, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 154] Current: tab_1
+   Predicted (Top 3): tab_6, tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 155] Current: tab_0
+   Predicted (Top 3): tab_11, tab_10, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 156] Current: tab_3
+   Predicted (Top 3): tab_4, tab_0, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 157] Current: tab_8
+   Predicted (Top 3): tab_9, tab_3, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 158] Current: tab_11
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 159] Current: tab_8
+   Predicted (Top 3): tab_8, tab_9, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 160] Current: tab_11
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 161] Current: tab_11
+   Predicted (Top 3): tab_8, tab_9, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 162] Current: tab_8
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 163] Current: tab_3
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 164] Current: tab_9
+   Predicted (Top 3): tab_8, tab_9, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 165] Current: tab_8
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 166] Current: tab_5
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 167] Current: tab_10
+   Predicted (Top 3): tab_3, tab_5, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 168] Current: tab_3
+   Predicted (Top 3): tab_5, tab_10, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 169] Current: tab_8
+   Predicted (Top 3): tab_9, tab_8, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 170] Current: tab_8
+   Predicted (Top 3): tab_9, tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 171] Current: tab_3
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 172] Current: tab_11
+   Predicted (Top 3): tab_8, tab_9, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 173] Current: tab_6
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 174] Current: tab_6
+   Predicted (Top 3): tab_6, tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 175] Current: tab_2
+   Predicted (Top 3): tab_6, tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 176] Current: tab_4
+   Predicted (Top 3): tab_7, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 177] Current: tab_11
+   Predicted (Top 3): tab_0, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 178] Current: tab_10
+   Predicted (Top 3): tab_8, tab_6, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 179] Current: tab_10
+   Predicted (Top 3): tab_5, tab_10, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 180] Current: tab_10
+   Predicted (Top 3): tab_10, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 181] Current: tab_11
+   Predicted (Top 3): tab_10, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 182] Current: tab_7
+   Predicted (Top 3): tab_8, tab_6, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 183] Current: tab_9
+   Predicted (Top 3): tab_5, tab_1, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 184] Current: tab_5
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 185] Current: tab_10
+   Predicted (Top 3): tab_3, tab_5, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 186] Current: tab_3
+   Predicted (Top 3): tab_10, tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 187] Current: tab_5
+   Predicted (Top 3): tab_8, tab_9, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 188] Current: tab_8
+   Predicted (Top 3): tab_3, tab_5, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 189] Current: tab_8
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 190] Current: tab_11
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 191] Current: tab_1
+   Predicted (Top 3): tab_8, tab_6, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 192] Current: tab_11
+   Predicted (Top 3): tab_11, tab_10, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 193] Current: tab_11
+   Predicted (Top 3): tab_8, tab_6, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 194] Current: tab_10
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 195] Current: tab_1
+   Predicted (Top 3): tab_10, tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 196] Current: tab_0
+   Predicted (Top 3): tab_11, tab_10, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 197] Current: tab_10
+   Predicted (Top 3): tab_3, tab_4, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 198] Current: tab_5
+   Predicted (Top 3): tab_10, tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 199] Current: tab_2
+   Predicted (Top 3): tab_3, tab_5, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 200] Current: tab_10
+   Predicted (Top 3): tab_7, tab_4, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 201] Current: tab_9
+   Predicted (Top 3): tab_10, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 202] Current: tab_9
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 203] Current: tab_5
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 204] Current: tab_5
+   Predicted (Top 3): tab_2, tab_3, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 205] Current: tab_9
+   Predicted (Top 3): tab_5, tab_2, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 206] Current: tab_3
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 207] Current: tab_9
+   Predicted (Top 3): tab_8, tab_9, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 208] Current: tab_11
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 209] Current: tab_3
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 210] Current: tab_0
+   Predicted (Top 3): tab_9, tab_8, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 211] Current: tab_7
+   Predicted (Top 3): tab_3, tab_4, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 212] Current: tab_8
+   Predicted (Top 3): tab_5, tab_1, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 213] Current: tab_9
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 214] Current: tab_9
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 215] Current: tab_11
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 216] Current: tab_0
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 217] Current: tab_9
+   Predicted (Top 3): tab_3, tab_4, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 218] Current: tab_8
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 219] Current: tab_0
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 220] Current: tab_7
+   Predicted (Top 3): tab_3, tab_4, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 221] Current: tab_6
+   Predicted (Top 3): tab_5, tab_1, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 222] Current: tab_3
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 223] Current: tab_4
+   Predicted (Top 3): tab_9, tab_8, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 224] Current: tab_9
+   Predicted (Top 3): tab_0, tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 225] Current: tab_2
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 226] Current: tab_1
+   Predicted (Top 3): tab_7, tab_4, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 227] Current: tab_7
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 228] Current: tab_10
+   Predicted (Top 3): tab_5, tab_1, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 229] Current: tab_1
+   Predicted (Top 3): tab_10, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 230] Current: tab_5
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 231] Current: tab_1
+   Predicted (Top 3): tab_5, tab_2, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 232] Current: tab_0
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 233] Current: tab_0
+   Predicted (Top 3): tab_7, tab_3, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 234] Current: tab_3
+   Predicted (Top 3): tab_0, tab_7, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 235] Current: tab_10
+   Predicted (Top 3): tab_9, tab_8, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 236] Current: tab_7
+   Predicted (Top 3): tab_10, tab_5, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 237] Current: tab_5
+   Predicted (Top 3): tab_5, tab_1, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 238] Current: tab_3
+   Predicted (Top 3): tab_5, tab_1, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 239] Current: tab_6
+   Predicted (Top 3): tab_9, tab_8, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 240] Current: tab_6
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 241] Current: tab_8
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 242] Current: tab_10
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 243] Current: tab_5
+   Predicted (Top 3): tab_10, tab_5, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 244] Current: tab_4
+   Predicted (Top 3): tab_3, tab_5, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 245] Current: tab_4
+   Predicted (Top 3): tab_0, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 246] Current: tab_3
+   Predicted (Top 3): tab_0, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 247] Current: tab_6
+   Predicted (Top 3): tab_9, tab_8, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 248] Current: tab_1
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 249] Current: tab_5
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 250] Current: tab_2
+   Predicted (Top 3): tab_3, tab_5, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 251] Current: tab_2
+   Predicted (Top 3): tab_7, tab_4, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 252] Current: tab_0
+   Predicted (Top 3): tab_7, tab_2, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 253] Current: tab_2
+   Predicted (Top 3): tab_3, tab_0, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 254] Current: tab_5
+   Predicted (Top 3): tab_7, tab_2, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 255] Current: tab_4
+   Predicted (Top 3): tab_2, tab_3, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 256] Current: tab_5
+   Predicted (Top 3): tab_0, tab_11, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 257] Current: tab_11
+   Predicted (Top 3): tab_2, tab_3, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 258] Current: tab_11
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 259] Current: tab_11
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 260] Current: tab_9
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 261] Current: tab_3
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 262] Current: tab_7
+   Predicted (Top 3): tab_9, tab_6, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 263] Current: tab_0
+   Predicted (Top 3): tab_5, tab_1, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 264] Current: tab_3
+   Predicted (Top 3): tab_3, tab_0, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 265] Current: tab_11
+   Predicted (Top 3): tab_9, tab_6, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 266] Current: tab_2
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 267] Current: tab_6
+   Predicted (Top 3): tab_7, tab_2, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 268] Current: tab_0
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 269] Current: tab_5
+   Predicted (Top 3): tab_3, tab_0, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 270] Current: tab_10
+   Predicted (Top 3): tab_2, tab_3, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 271] Current: tab_9
+   Predicted (Top 3): tab_5, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 272] Current: tab_9
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 273] Current: tab_1
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 274] Current: tab_11
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 275] Current: tab_6
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 276] Current: tab_7
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 277] Current: tab_11
+   Predicted (Top 3): tab_5, tab_1, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 278] Current: tab_8
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 279] Current: tab_11
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 280] Current: tab_11
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 281] Current: tab_11
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 282] Current: tab_11
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 283] Current: tab_4
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 284] Current: tab_11
+   Predicted (Top 3): tab_0, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 285] Current: tab_11
+   Predicted (Top 3): tab_8, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 286] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 287] Current: tab_11
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 288] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 289] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 290] Current: tab_2
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 291] Current: tab_6
+   Predicted (Top 3): tab_7, tab_6, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 292] Current: tab_4
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 293] Current: tab_4
+   Predicted (Top 3): tab_11, tab_0, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 294] Current: tab_10
+   Predicted (Top 3): tab_11, tab_0, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 295] Current: tab_2
+   Predicted (Top 3): tab_5, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 296] Current: tab_9
+   Predicted (Top 3): tab_7, tab_6, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 297] Current: tab_8
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 298] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 299] Current: tab_5
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 300] Current: tab_2
+   Predicted (Top 3): tab_2, tab_3, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 301] Current: tab_10
+   Predicted (Top 3): tab_7, tab_6, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 302] Current: tab_2
+   Predicted (Top 3): tab_5, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 303] Current: tab_3
+   Predicted (Top 3): tab_7, tab_6, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 304] Current: tab_2
+   Predicted (Top 3): tab_9, tab_6, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 305] Current: tab_2
+   Predicted (Top 3): tab_7, tab_6, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 306] Current: tab_8
+   Predicted (Top 3): tab_7, tab_6, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 307] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 308] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 309] Current: tab_10
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 310] Current: tab_6
+   Predicted (Top 3): tab_5, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 311] Current: tab_7
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 312] Current: tab_6
+   Predicted (Top 3): tab_5, tab_1, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 313] Current: tab_11
+   Predicted (Top 3): tab_6, tab_11, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 314] Current: tab_5
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 315] Current: tab_3
+   Predicted (Top 3): tab_2, tab_3, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 316] Current: tab_2
+   Predicted (Top 3): tab_9, tab_6, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 317] Current: tab_9
+   Predicted (Top 3): tab_7, tab_6, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 318] Current: tab_11
+   Predicted (Top 3): tab_9, tab_11, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 319] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 320] Current: tab_10
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 321] Current: tab_8
+   Predicted (Top 3): tab_5, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 322] Current: tab_6
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 323] Current: tab_10
+   Predicted (Top 3): tab_6, tab_11, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 324] Current: tab_0
+   Predicted (Top 3): tab_5, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 325] Current: tab_4
+   Predicted (Top 3): tab_3, tab_0, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 326] Current: tab_11
+   Predicted (Top 3): tab_11, tab_0, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 327] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 328] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 329] Current: tab_8
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 330] Current: tab_9
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 331] Current: tab_8
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 332] Current: tab_4
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 333] Current: tab_9
+   Predicted (Top 3): tab_11, tab_0, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 334] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 335] Current: tab_0
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 336] Current: tab_2
+   Predicted (Top 3): tab_3, tab_4, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 337] Current: tab_0
+   Predicted (Top 3): tab_7, tab_6, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 338] Current: tab_11
+   Predicted (Top 3): tab_3, tab_4, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 339] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 340] Current: tab_0
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 341] Current: tab_9
+   Predicted (Top 3): tab_3, tab_4, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 342] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 343] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 344] Current: tab_10
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 345] Current: tab_8
+   Predicted (Top 3): tab_5, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 346] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 347] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 348] Current: tab_4
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 349] Current: tab_10
+   Predicted (Top 3): tab_11, tab_9, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 350] Current: tab_8
+   Predicted (Top 3): tab_5, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 351] Current: tab_8
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 352] Current: tab_8
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 353] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 354] Current: tab_1
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 355] Current: tab_2
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 356] Current: tab_3
+   Predicted (Top 3): tab_7, tab_6, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 357] Current: tab_8
+   Predicted (Top 3): tab_9, tab_6, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 358] Current: tab_1
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 359] Current: tab_8
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 360] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 361] Current: tab_2
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 362] Current: tab_2
+   Predicted (Top 3): tab_7, tab_6, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 363] Current: tab_7
+   Predicted (Top 3): tab_2, tab_7, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 364] Current: tab_1
+   Predicted (Top 3): tab_5, tab_1, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 365] Current: tab_8
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 366] Current: tab_2
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 367] Current: tab_10
+   Predicted (Top 3): tab_7, tab_2, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 368] Current: tab_3
+   Predicted (Top 3): tab_5, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 369] Current: tab_2
+   Predicted (Top 3): tab_8, tab_9, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 370] Current: tab_8
+   Predicted (Top 3): tab_7, tab_2, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 371] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 372] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 373] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 374] Current: tab_9
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 375] Current: tab_0
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 376] Current: tab_7
+   Predicted (Top 3): tab_3, tab_4, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 377] Current: tab_7
+   Predicted (Top 3): tab_5, tab_1, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 378] Current: tab_6
+   Predicted (Top 3): tab_5, tab_1, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 379] Current: tab_11
+   Predicted (Top 3): tab_6, tab_11, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 380] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 381] Current: tab_9
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 382] Current: tab_3
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 383] Current: tab_4
+   Predicted (Top 3): tab_8, tab_9, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 384] Current: tab_10
+   Predicted (Top 3): tab_11, tab_9, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 385] Current: tab_9
+   Predicted (Top 3): tab_5, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 386] Current: tab_10
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 387] Current: tab_0
+   Predicted (Top 3): tab_5, tab_10, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 388] Current: tab_9
+   Predicted (Top 3): tab_3, tab_7, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 389] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 390] Current: tab_10
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 391] Current: tab_9
+   Predicted (Top 3): tab_5, tab_10, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 392] Current: tab_6
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 393] Current: tab_4
+   Predicted (Top 3): tab_6, tab_11, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 394] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 395] Current: tab_4
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 396] Current: tab_3
+   Predicted (Top 3): tab_11, tab_9, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 397] Current: tab_1
+   Predicted (Top 3): tab_8, tab_9, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 398] Current: tab_10
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 399] Current: tab_10
+   Predicted (Top 3): tab_9, tab_5, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 400] Current: tab_9
+   Predicted (Top 3): tab_10, tab_9, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 401] Current: tab_3
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 402] Current: tab_2
+   Predicted (Top 3): tab_8, tab_9, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 403] Current: tab_8
+   Predicted (Top 3): tab_7, tab_2, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 404] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 405] Current: tab_4
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 406] Current: tab_4
+   Predicted (Top 3): tab_11, tab_3, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 407] Current: tab_9
+   Predicted (Top 3): tab_11, tab_3, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 408] Current: tab_3
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 409] Current: tab_0
+   Predicted (Top 3): tab_8, tab_9, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 410] Current: tab_10
+   Predicted (Top 3): tab_3, tab_9, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 411] Current: tab_9
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 412] Current: tab_7
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 413] Current: tab_4
+   Predicted (Top 3): tab_5, tab_1, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 414] Current: tab_6
+   Predicted (Top 3): tab_11, tab_9, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 415] Current: tab_5
+   Predicted (Top 3): tab_6, tab_11, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 416] Current: tab_10
+   Predicted (Top 3): tab_2, tab_3, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 417] Current: tab_9
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 418] Current: tab_8
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 419] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 420] Current: tab_7
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 421] Current: tab_10
+   Predicted (Top 3): tab_5, tab_1, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 422] Current: tab_6
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 423] Current: tab_2
+   Predicted (Top 3): tab_6, tab_11, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 424] Current: tab_8
+   Predicted (Top 3): tab_7, tab_2, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 425] Current: tab_6
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 426] Current: tab_2
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 427] Current: tab_6
+   Predicted (Top 3): tab_7, tab_2, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 428] Current: tab_5
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 429] Current: tab_6
+   Predicted (Top 3): tab_2, tab_3, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 430] Current: tab_2
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 431] Current: tab_0
+   Predicted (Top 3): tab_7, tab_6, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 432] Current: tab_7
+   Predicted (Top 3): tab_3, tab_9, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 433] Current: tab_4
+   Predicted (Top 3): tab_5, tab_1, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 434] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 435] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 436] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 437] Current: tab_5
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 438] Current: tab_10
+   Predicted (Top 3): tab_2, tab_3, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 439] Current: tab_1
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 440] Current: tab_4
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 441] Current: tab_1
+   Predicted (Top 3): tab_11, tab_9, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 442] Current: tab_7
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 443] Current: tab_11
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 444] Current: tab_5
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 445] Current: tab_11
+   Predicted (Top 3): tab_2, tab_3, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 446] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 447] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 448] Current: tab_6
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 449] Current: tab_11
+   Predicted (Top 3): tab_2, tab_6, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 450] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 451] Current: tab_10
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 452] Current: tab_6
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 453] Current: tab_6
+   Predicted (Top 3): tab_11, tab_2, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 454] Current: tab_4
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 455] Current: tab_8
+   Predicted (Top 3): tab_11, tab_9, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 456] Current: tab_4
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 457] Current: tab_7
+   Predicted (Top 3): tab_11, tab_9, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 458] Current: tab_10
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 459] Current: tab_9
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 460] Current: tab_0
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 461] Current: tab_8
+   Predicted (Top 3): tab_7, tab_3, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 462] Current: tab_2
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 463] Current: tab_3
+   Predicted (Top 3): tab_7, tab_6, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 464] Current: tab_6
+   Predicted (Top 3): tab_8, tab_9, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 465] Current: tab_5
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 466] Current: tab_8
+   Predicted (Top 3): tab_2, tab_3, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 467] Current: tab_6
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 468] Current: tab_0
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 469] Current: tab_5
+   Predicted (Top 3): tab_7, tab_3, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 470] Current: tab_8
+   Predicted (Top 3): tab_2, tab_3, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 471] Current: tab_10
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 472] Current: tab_9
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 473] Current: tab_7
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 474] Current: tab_8
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 475] Current: tab_10
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 476] Current: tab_9
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 477] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 478] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 479] Current: tab_8
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 480] Current: tab_8
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 481] Current: tab_6
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 482] Current: tab_5
+   Predicted (Top 3): tab_6, tab_11, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 483] Current: tab_5
+   Predicted (Top 3): tab_2, tab_3, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 484] Current: tab_3
+   Predicted (Top 3): tab_2, tab_3, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 485] Current: tab_8
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 486] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 487] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 488] Current: tab_3
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 489] Current: tab_9
+   Predicted (Top 3): tab_8, tab_6, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 490] Current: tab_1
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 491] Current: tab_3
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 492] Current: tab_10
+   Predicted (Top 3): tab_8, tab_9, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 493] Current: tab_8
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 494] Current: tab_3
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 495] Current: tab_6
+   Predicted (Top 3): tab_8, tab_9, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 496] Current: tab_7
+   Predicted (Top 3): tab_6, tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 497] Current: tab_5
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 498] Current: tab_6
+   Predicted (Top 3): tab_3, tab_2, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 499] Current: tab_1
+   Predicted (Top 3): tab_6, tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 500] Current: tab_8
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 501] Current: tab_4
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 502] Current: tab_6
+   Predicted (Top 3): tab_11, tab_9, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 503] Current: tab_5
+   Predicted (Top 3): tab_6, tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 504] Current: tab_0
+   Predicted (Top 3): tab_3, tab_2, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 505] Current: tab_0
+   Predicted (Top 3): tab_7, tab_3, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 506] Current: tab_6
+   Predicted (Top 3): tab_7, tab_3, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 507] Current: tab_11
+   Predicted (Top 3): tab_5, tab_6, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 508] Current: tab_1
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 509] Current: tab_7
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 510] Current: tab_1
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 511] Current: tab_6
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 512] Current: tab_1
+   Predicted (Top 3): tab_11, tab_5, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 513] Current: tab_9
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 514] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 515] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 516] Current: tab_10
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 517] Current: tab_0
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 518] Current: tab_8
+   Predicted (Top 3): tab_7, tab_3, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 519] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 520] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 521] Current: tab_2
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 522] Current: tab_0
+   Predicted (Top 3): tab_7, tab_6, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 523] Current: tab_0
+   Predicted (Top 3): tab_7, tab_3, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 524] Current: tab_1
+   Predicted (Top 3): tab_0, tab_7, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 525] Current: tab_7
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 526] Current: tab_9
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 527] Current: tab_1
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 528] Current: tab_7
+   Predicted (Top 3): tab_11, tab_0, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 529] Current: tab_4
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 530] Current: tab_0
+   Predicted (Top 3): tab_11, tab_9, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 531] Current: tab_10
+   Predicted (Top 3): tab_0, tab_7, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 532] Current: tab_3
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 533] Current: tab_4
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 534] Current: tab_1
+   Predicted (Top 3): tab_11, tab_9, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 535] Current: tab_8
+   Predicted (Top 3): tab_11, tab_7, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 536] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 537] Current: tab_9
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 538] Current: tab_9
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 539] Current: tab_9
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 540] Current: tab_1
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 541] Current: tab_9
+   Predicted (Top 3): tab_11, tab_7, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 542] Current: tab_3
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 543] Current: tab_1
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 544] Current: tab_8
+   Predicted (Top 3): tab_11, tab_7, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 545] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 546] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 547] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 548] Current: tab_4
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 549] Current: tab_1
+   Predicted (Top 3): tab_11, tab_9, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 550] Current: tab_6
+   Predicted (Top 3): tab_11, tab_7, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 551] Current: tab_2
+   Predicted (Top 3): tab_11, tab_5, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 552] Current: tab_0
+   Predicted (Top 3): tab_7, tab_6, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 553] Current: tab_8
+   Predicted (Top 3): tab_0, tab_7, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 554] Current: tab_3
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 555] Current: tab_6
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 556] Current: tab_7
+   Predicted (Top 3): tab_11, tab_5, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 557] Current: tab_3
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 558] Current: tab_1
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 559] Current: tab_4
+   Predicted (Top 3): tab_11, tab_7, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 560] Current: tab_10
+   Predicted (Top 3): tab_11, tab_9, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 561] Current: tab_2
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 562] Current: tab_3
+   Predicted (Top 3): tab_0, tab_7, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 563] Current: tab_7
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 564] Current: tab_4
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 565] Current: tab_4
+   Predicted (Top 3): tab_11, tab_9, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 566] Current: tab_6
+   Predicted (Top 3): tab_11, tab_9, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 567] Current: tab_6
+   Predicted (Top 3): tab_11, tab_5, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 568] Current: tab_5
+   Predicted (Top 3): tab_6, tab_11, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 569] Current: tab_4
+   Predicted (Top 3): tab_3, tab_2, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 570] Current: tab_9
+   Predicted (Top 3): tab_11, tab_6, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 571] Current: tab_4
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 572] Current: tab_0
+   Predicted (Top 3): tab_11, tab_9, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 573] Current: tab_2
+   Predicted (Top 3): tab_0, tab_7, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 574] Current: tab_4
+   Predicted (Top 3): tab_0, tab_7, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 575] Current: tab_10
+   Predicted (Top 3): tab_11, tab_9, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 576] Current: tab_0
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 577] Current: tab_3
+   Predicted (Top 3): tab_0, tab_7, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 578] Current: tab_11
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 579] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 580] Current: tab_6
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 581] Current: tab_10
+   Predicted (Top 3): tab_5, tab_6, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 582] Current: tab_7
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 583] Current: tab_8
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 584] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 585] Current: tab_4
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 586] Current: tab_2
+   Predicted (Top 3): tab_11, tab_9, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 587] Current: tab_8
+   Predicted (Top 3): tab_0, tab_7, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 588] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 589] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 590] Current: tab_8
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 591] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 592] Current: tab_8
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 593] Current: tab_8
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 594] Current: tab_7
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 595] Current: tab_10
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 596] Current: tab_11
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 597] Current: tab_1
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 598] Current: tab_2
+   Predicted (Top 3): tab_11, tab_7, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 599] Current: tab_0
+   Predicted (Top 3): tab_0, tab_8, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 600] Current: tab_8
+   Predicted (Top 3): tab_3, tab_0, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 601] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 602] Current: tab_2
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 603] Current: tab_9
+   Predicted (Top 3): tab_0, tab_8, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 604] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 605] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 606] Current: tab_4
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 607] Current: tab_1
+   Predicted (Top 3): tab_11, tab_9, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 608] Current: tab_10
+   Predicted (Top 3): tab_11, tab_7, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 609] Current: tab_4
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 610] Current: tab_1
+   Predicted (Top 3): tab_11, tab_9, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 611] Current: tab_10
+   Predicted (Top 3): tab_11, tab_7, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 612] Current: tab_1
+   Predicted (Top 3): tab_9, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 613] Current: tab_4
+   Predicted (Top 3): tab_11, tab_10, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 614] Current: tab_10
+   Predicted (Top 3): tab_11, tab_9, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 615] Current: tab_4
+   Predicted (Top 3): tab_9, tab_1, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 616] Current: tab_7
+   Predicted (Top 3): tab_11, tab_10, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 617] Current: tab_10
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 618] Current: tab_6
+   Predicted (Top 3): tab_9, tab_1, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 619] Current: tab_1
+   Predicted (Top 3): tab_5, tab_6, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 620] Current: tab_0
+   Predicted (Top 3): tab_11, tab_10, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 621] Current: tab_1
+   Predicted (Top 3): tab_3, tab_0, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 622] Current: tab_2
+   Predicted (Top 3): tab_11, tab_10, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 623] Current: tab_2
+   Predicted (Top 3): tab_0, tab_8, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 624] Current: tab_11
+   Predicted (Top 3): tab_0, tab_2, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 625] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 626] Current: tab_9
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 627] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 628] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 629] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 630] Current: tab_5
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 631] Current: tab_0
+   Predicted (Top 3): tab_3, tab_2, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 632] Current: tab_1
+   Predicted (Top 3): tab_3, tab_0, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 633] Current: tab_4
+   Predicted (Top 3): tab_11, tab_10, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 634] Current: tab_10
+   Predicted (Top 3): tab_11, tab_10, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 635] Current: tab_10
+   Predicted (Top 3): tab_9, tab_6, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 636] Current: tab_10
+   Predicted (Top 3): tab_9, tab_10, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 637] Current: tab_6
+   Predicted (Top 3): tab_9, tab_10, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 638] Current: tab_7
+   Predicted (Top 3): tab_5, tab_6, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 639] Current: tab_0
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 640] Current: tab_7
+   Predicted (Top 3): tab_3, tab_0, tab_7
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 641] Current: tab_0
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 642] Current: tab_4
+   Predicted (Top 3): tab_7, tab_3, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 643] Current: tab_8
+   Predicted (Top 3): tab_10, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 644] Current: tab_6
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 645] Current: tab_7
+   Predicted (Top 3): tab_5, tab_6, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 646] Current: tab_10
+   Predicted (Top 3): tab_5, tab_1, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 647] Current: tab_9
+   Predicted (Top 3): tab_9, tab_10, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 648] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 649] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 650] Current: tab_10
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 651] Current: tab_11
+   Predicted (Top 3): tab_9, tab_10, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 652] Current: tab_7
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 653] Current: tab_4
+   Predicted (Top 3): tab_10, tab_5, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 654] Current: tab_11
+   Predicted (Top 3): tab_10, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 655] Current: tab_3
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 656] Current: tab_10
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 657] Current: tab_7
+   Predicted (Top 3): tab_9, tab_10, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 658] Current: tab_5
+   Predicted (Top 3): tab_4, tab_10, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 659] Current: tab_6
+   Predicted (Top 3): tab_3, tab_2, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 660] Current: tab_11
+   Predicted (Top 3): tab_5, tab_6, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 661] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 662] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 663] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 664] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 665] Current: tab_10
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 666] Current: tab_0
+   Predicted (Top 3): tab_9, tab_10, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 667] Current: tab_1
+   Predicted (Top 3): tab_7, tab_3, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 668] Current: tab_11
+   Predicted (Top 3): tab_11, tab_10, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 669] Current: tab_6
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 670] Current: tab_5
+   Predicted (Top 3): tab_11, tab_5, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 671] Current: tab_10
+   Predicted (Top 3): tab_3, tab_2, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 672] Current: tab_8
+   Predicted (Top 3): tab_9, tab_10, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 673] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 674] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 675] Current: tab_6
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 676] Current: tab_6
+   Predicted (Top 3): tab_5, tab_11, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 677] Current: tab_2
+   Predicted (Top 3): tab_5, tab_6, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 678] Current: tab_10
+   Predicted (Top 3): tab_0, tab_2, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 679] Current: tab_2
+   Predicted (Top 3): tab_9, tab_10, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 680] Current: tab_5
+   Predicted (Top 3): tab_0, tab_2, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 681] Current: tab_0
+   Predicted (Top 3): tab_3, tab_10, tab_2
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 682] Current: tab_6
+   Predicted (Top 3): tab_7, tab_3, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 683] Current: tab_6
+   Predicted (Top 3): tab_5, tab_6, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 684] Current: tab_7
+   Predicted (Top 3): tab_6, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 685] Current: tab_11
+   Predicted (Top 3): tab_5, tab_4, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 686] Current: tab_6
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 687] Current: tab_4
+   Predicted (Top 3): tab_6, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 688] Current: tab_10
+   Predicted (Top 3): tab_11, tab_10, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 689] Current: tab_1
+   Predicted (Top 3): tab_9, tab_10, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 690] Current: tab_0
+   Predicted (Top 3): tab_11, tab_10, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 691] Current: tab_11
+   Predicted (Top 3): tab_7, tab_3, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 692] Current: tab_4
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 693] Current: tab_0
+   Predicted (Top 3): tab_10, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 694] Current: tab_1
+   Predicted (Top 3): tab_7, tab_3, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 695] Current: tab_3
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 696] Current: tab_10
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 697] Current: tab_11
+   Predicted (Top 3): tab_9, tab_10, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 698] Current: tab_8
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 699] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 700] Current: tab_9
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 701] Current: tab_6
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 702] Current: tab_4
+   Predicted (Top 3): tab_6, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 703] Current: tab_10
+   Predicted (Top 3): tab_10, tab_11, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 704] Current: tab_1
+   Predicted (Top 3): tab_9, tab_10, tab_6
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 705] Current: tab_3
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 706] Current: tab_4
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 707] Current: tab_7
+   Predicted (Top 3): tab_10, tab_11, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 708] Current: tab_6
+   Predicted (Top 3): tab_5, tab_4, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 709] Current: tab_3
+   Predicted (Top 3): tab_6, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 710] Current: tab_10
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 711] Current: tab_2
+   Predicted (Top 3): tab_9, tab_1, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 712] Current: tab_9
+   Predicted (Top 3): tab_0, tab_2, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 713] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 714] Current: tab_11
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 715] Current: tab_4
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 716] Current: tab_1
+   Predicted (Top 3): tab_10, tab_11, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 717] Current: tab_6
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 718] Current: tab_4
+   Predicted (Top 3): tab_6, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 719] Current: tab_5
+   Predicted (Top 3): tab_10, tab_11, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 720] Current: tab_10
+   Predicted (Top 3): tab_3, tab_10, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 721] Current: tab_10
+   Predicted (Top 3): tab_9, tab_1, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 722] Current: tab_4
+   Predicted (Top 3): tab_9, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 723] Current: tab_7
+   Predicted (Top 3): tab_10, tab_11, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 724] Current: tab_2
+   Predicted (Top 3): tab_5, tab_4, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 725] Current: tab_4
+   Predicted (Top 3): tab_0, tab_2, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 726] Current: tab_11
+   Predicted (Top 3): tab_10, tab_11, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 727] Current: tab_8
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 728] Current: tab_3
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 729] Current: tab_2
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 730] Current: tab_3
+   Predicted (Top 3): tab_0, tab_2, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 731] Current: tab_10
+   Predicted (Top 3): tab_6, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 732] Current: tab_7
+   Predicted (Top 3): tab_9, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 733] Current: tab_3
+   Predicted (Top 3): tab_5, tab_4, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 734] Current: tab_6
+   Predicted (Top 3): tab_6, tab_10, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 735] Current: tab_7
+   Predicted (Top 3): tab_6, tab_5, tab_11
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 736] Current: tab_11
+   Predicted (Top 3): tab_5, tab_4, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 737] Current: tab_8
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 738] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 739] Current: tab_8
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 740] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 741] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 742] Current: tab_8
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 743] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 744] Current: tab_1
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 745] Current: tab_3
+   Predicted (Top 3): tab_11, tab_0, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 746] Current: tab_6
+   Predicted (Top 3): tab_6, tab_10, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 747] Current: tab_8
+   Predicted (Top 3): tab_6, tab_7, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 748] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 749] Current: tab_5
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 750] Current: tab_0
+   Predicted (Top 3): tab_10, tab_3, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 751] Current: tab_7
+   Predicted (Top 3): tab_7, tab_3, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 752] Current: tab_8
+   Predicted (Top 3): tab_5, tab_4, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 753] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 754] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 755] Current: tab_9
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 756] Current: tab_7
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 757] Current: tab_11
+   Predicted (Top 3): tab_5, tab_4, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 758] Current: tab_11
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 759] Current: tab_9
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 760] Current: tab_0
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 761] Current: tab_5
+   Predicted (Top 3): tab_7, tab_3, tab_0
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 762] Current: tab_9
+   Predicted (Top 3): tab_10, tab_0, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 763] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 764] Current: tab_7
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 765] Current: tab_9
+   Predicted (Top 3): tab_5, tab_4, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 766] Current: tab_6
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 767] Current: tab_2
+   Predicted (Top 3): tab_6, tab_7, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 768] Current: tab_4
+   Predicted (Top 3): tab_0, tab_2, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 769] Current: tab_10
+   Predicted (Top 3): tab_10, tab_11, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 770] Current: tab_4
+   Predicted (Top 3): tab_9, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 771] Current: tab_9
+   Predicted (Top 3): tab_10, tab_11, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 772] Current: tab_11
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 773] Current: tab_6
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 774] Current: tab_7
+   Predicted (Top 3): tab_6, tab_7, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 775] Current: tab_3
+   Predicted (Top 3): tab_5, tab_4, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 776] Current: tab_5
+   Predicted (Top 3): tab_6, tab_10, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 777] Current: tab_7
+   Predicted (Top 3): tab_10, tab_0, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 778] Current: tab_2
+   Predicted (Top 3): tab_5, tab_4, tab_10
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 779] Current: tab_5
+   Predicted (Top 3): tab_0, tab_2, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 780] Current: tab_9
+   Predicted (Top 3): tab_10, tab_0, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 781] Current: tab_8
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 782] Current: tab_8
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 783] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 784] Current: tab_8
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 785] Current: tab_11
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 786] Current: tab_10
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 787] Current: tab_11
+   Predicted (Top 3): tab_9, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 788] Current: tab_8
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 789] Current: tab_9
+   Predicted (Top 3): tab_11, tab_8, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 790] Current: tab_10
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 791] Current: tab_9
+   Predicted (Top 3): tab_9, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 792] Current: tab_9
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 793] Current: tab_6
+   Predicted (Top 3): tab_11, tab_9, tab_8
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 794] Current: tab_5
+   Predicted (Top 3): tab_7, tab_6, tab_5
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 795] Current: tab_10
+   Predicted (Top 3): tab_10, tab_0, tab_3
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 796] Current: tab_2
+   Predicted (Top 3): tab_9, tab_10, tab_1
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 797] Current: tab_11
+   Predicted (Top 3): tab_0, tab_2, tab_4
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 798] Current: tab_11
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 799] Current: tab_11
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+
+[Step 800] Current: tab_9
+   Predicted (Top 3): tab_8, tab_11, tab_9
+   Prefetch hit: Yes | Latency: 20.00 ms
+

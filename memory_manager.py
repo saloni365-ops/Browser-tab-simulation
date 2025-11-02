@@ -1,54 +1,93 @@
-# memory_manager.py
-from typing import Dict, List, Optional
-from tab import Tab
-import suspend_restore
+from collections import OrderedDict
+import time
+from suspend_restore import SuspendRestoreManager
 
 class MemoryManager:
-    def __init__(self, system_limit_mb: int = 4096):
-        self.tabs: Dict[str, Tab] = {}
-        self.system_limit_mb = system_limit_mb
+    COMPRESSION_RATIO = 0.5
+    COMPRESSED_OVERHEAD_MB = 5.0
 
-    def add_tab(self, tab: Tab):
-        self.tabs[tab.tab_id] = tab
+    def __init__(self, tab_sizes=None, memory_limit_mb=1200):
+        self.tab_sizes = dict(tab_sizes) if tab_sizes else {}
+        self.memory_limit = memory_limit_mb
+        self.active = OrderedDict()
+        self.compressed = set()
+        self.disk = set(self.tab_sizes.keys())
+        self.sr = SuspendRestoreManager()
+        for t in self.tab_sizes:
+            self.sr.set_tier(t, "disk")
+        self.total_active_mem = 0.0
+        self.total_compressed_mem = 0.0
 
-    def total_memory_usage(self) -> int:
-        return sum(t.get_memory_usage_mb() for t in self.tabs.values())
+    def get_tab_size(self, tab_id, tier):
+        base = self.tab_sizes.get(tab_id, 100)
+        if tier == "active":
+            return base
+        if tier == "compressed":
+            return base * self.COMPRESSION_RATIO + self.COMPRESSED_OVERHEAD_MB
+        return 0.0
 
-    def enforce_policy(self, policy: str = 'working_set', protect_tab_id: Optional[str] = None, simulate_sleep: bool = False) -> List[str]:
-        suspended = []
-        if policy == 'none':
-            return suspended
-
-        # Keep suspending until memory under limit or no candidates left
-        while self.total_memory_usage() > self.system_limit_mb:
-            candidate = None
-            if policy == 'lru':
-                oldest_ts = None
-                for t in self.tabs.values():
-                    if t.is_suspended or t.tab_id == protect_tab_id:
-                        continue
-                    # estimate last access time: from working set last item
-                    if t.working_set:
-                        last_pid = t.working_set[-1]
-                        last_ts = t.last_access.get(last_pid, 0)
-                    else:
-                        last_ts = 0
-                    if oldest_ts is None or last_ts < oldest_ts:
-                        oldest_ts = last_ts
-                        candidate = t
-            elif policy == 'working_set':
-                min_ws = None
-                for t in self.tabs.values():
-                    if t.is_suspended or t.tab_id == protect_tab_id:
-                        continue
-                    ws = t.working_set_size_pages()
-                    if min_ws is None or ws < min_ws:
-                        min_ws = ws
-                        candidate = t
-
-            if not candidate:
+    def ensure_memory_within_limit(self):
+        while (self.total_active_mem + self.total_compressed_mem) > self.memory_limit:
+            if not self.active:
                 break
-            # Use suspend_restore to suspend (so snapshot latency computed here)
-            suspend_restore.suspend_tab(candidate, save_snapshot=True, simulate_sleep=simulate_sleep)
-            suspended.append(candidate.tab_id)
-        return suspended
+            lru_tab, info = next(iter(self.active.items()))
+            self._compress_tab(lru_tab)
+
+    def _compress_tab(self, tab_id):
+        if tab_id not in self.active:
+            return
+        info = self.active.pop(tab_id)
+        size_active = info['size']
+        size_comp = self.get_tab_size(tab_id, "compressed")
+        self.total_active_mem -= size_active
+        self.compressed.add(tab_id)
+        self.total_compressed_mem += size_comp
+        self.sr.suspend_to_compressed(tab_id)
+
+    def access_tab(self, tab_id, cur_time=None):
+        if cur_time is None:
+            cur_time = time.time()
+        tier = self.sr.get_tier(tab_id)
+        prefetch_hit = tier in ("active", "compressed")
+        latency = self.sr.simulate_restore_latency(tab_id)
+        if tab_id in self.active:
+            self.active.move_to_end(tab_id)
+            self.active[tab_id]['last_access'] = cur_time
+            return latency, prefetch_hit
+        if tab_id in self.compressed:
+            size_comp = self.get_tab_size(tab_id, "compressed")
+            self.compressed.remove(tab_id)
+            self.total_compressed_mem -= size_comp
+        elif tab_id in self.disk:
+            self.disk.remove(tab_id)
+        size_active = self.get_tab_size(tab_id, "active")
+        self.active[tab_id] = {'size': size_active, 'last_access': cur_time}
+        self.total_active_mem += size_active
+        self.ensure_memory_within_limit()
+        return latency, prefetch_hit
+
+    def prefetch(self, predicted_tabs):
+        """
+        predicted_tabs: list of tab_ids (or list of tuples (tab_id,prob))
+        Bring disk->compressed for predicted tabs
+        """
+        for entry in predicted_tabs:
+            tab_id = entry[0] if isinstance(entry, tuple) else entry
+            tier = self.sr.get_tier(tab_id)
+            if tier == "disk":
+                if tab_id in self.disk:
+                    self.disk.remove(tab_id)
+                if tab_id not in self.compressed:
+                    self.compressed.add(tab_id)
+                    self.total_compressed_mem += self.get_tab_size(tab_id, "compressed")
+                    self.sr.suspend_to_compressed(tab_id)
+                self.ensure_memory_within_limit()
+
+    def current_memory_usage(self):
+        return {
+            'active_mb': self.total_active_mem,
+            'compressed_mb': self.total_compressed_mem,
+            'disk_count': len(self.disk),
+            'active_count': len(self.active),
+            'compressed_count': len(self.compressed)
+        }
